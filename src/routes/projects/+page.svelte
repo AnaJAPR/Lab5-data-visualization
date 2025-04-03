@@ -53,7 +53,7 @@
 
 <h1>{ projects.length } Projects</h1>
 <div class="projects">
-    {#each filteredProjects as p}
+    {#each filteredByYear as p}
         <Project data={p}/>
       <!-- <article>
         <h2>{p.title}</h2>
